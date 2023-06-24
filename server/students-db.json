@@ -307,6 +307,72 @@
       "phoneNumber": "+6282525252525",
       "faculty": "Fakultas Teknologi Informasi dan Sains",
       "programStudy": "Matematika"
+    },
+    {
+      "fullname": "sigit ",
+      "profilePicture": "sigit",
+      "birthDate": "2023-06-06",
+      "gender": "Female",
+      "phoneNumber": "098765432",
+      "address": "wertyui",
+      "faculty": "Fakultas Ekonomi",
+      "programStudy": "Manajemen",
+      "id": 29
+    },
+    {
+      "fullname": "sigit ",
+      "profilePicture": "sigit",
+      "birthDate": "2023-06-06",
+      "gender": "Female",
+      "phoneNumber": "098765432",
+      "address": "wertyui",
+      "faculty": "Fakultas Ekonomi",
+      "programStudy": "Manajemen",
+      "id": 30
+    },
+    {
+      "fullname": "sigit ",
+      "profilePicture": "sigit",
+      "birthDate": "2023-06-06",
+      "gender": "Female",
+      "phoneNumber": "098765432",
+      "address": "wertyui",
+      "faculty": "Fakultas Ekonomi",
+      "programStudy": "Manajemen",
+      "id": 31
+    },
+    {
+      "fullname": "sigit ",
+      "profilePicture": "sigit",
+      "birthDate": "2023-06-06",
+      "gender": "Female",
+      "phoneNumber": "098765432",
+      "address": "wertyui",
+      "faculty": "Fakultas Ekonomi",
+      "programStudy": "Manajemen",
+      "id": 32
+    },
+    {
+      "fullname": "sigit ",
+      "profilePicture": "sigit",
+      "birthDate": "2023-06-06",
+      "gender": "Female",
+      "phoneNumber": "098765432",
+      "address": "wertyui",
+      "faculty": "Fakultas Ekonomi",
+      "programStudy": "Manajemen",
+      "id": 33
+    },
+    {
+      "fullname": "drftgyhuji",
+      "profilePicture": "rtyuio",
+      "birthDate": "2023-06-24",
+      "gender": "Female",
+      "phoneNumber": "234567890",
+      "address": "4ertyuio",
+      "faculty": "Fakultas Ilmu Sosial dan Politik",
+      "programStudy": "Administrasi Publik",
+      "id": 34
     }
   ]
 }

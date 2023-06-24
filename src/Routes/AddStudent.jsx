@@ -3,26 +3,16 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import NavBar from "../components/Navbar";
 import { useState } from "react";
-import { Center, Card, CardHeader, CardBody, CardFooter, Box, Heading, Input, Select, Button } from '@chakra-ui/react'
+import { Center, Card, CardHeader, CardBody, Box, Heading, Input, Select, Button } from '@chakra-ui/react'
 import {
   FormControl,
   FormLabel,
-  FormErrorMessage,
-  FormHelperText,
 } from '@chakra-ui/react'
 import Footer from "../components/Footer";
 
 const AddStudent = () => {
     // TODO: answer here
-    const [data, setData] = useState([])
-    const [loading, setLoading] = useState(true)
-    const fetchData = async () => {
-        setLoading(true)
-        const response = await fetch("http://localhost:3001/student");
-        const data = await response.json();
-        setData(data);
-        setLoading(false)
-    }
+    
     const Form = (props) => {
         // TODO: answer here
         const navigate = useNavigate();
@@ -74,7 +64,6 @@ const AddStudent = () => {
                 body: JSON.stringify(student),
             })
 
-            await props.fetchData();
             navigate("/student");
 
             } catch (error) {
@@ -151,7 +140,7 @@ const AddStudent = () => {
                                 <Heading size='md' as='h1'>Add Student</Heading>
                             </CardHeader>
                             <CardBody>
-                                <Form fetchData={fetchData} />
+                                <Form/>
                             </CardBody>
                         </Card>    
                     </Center>

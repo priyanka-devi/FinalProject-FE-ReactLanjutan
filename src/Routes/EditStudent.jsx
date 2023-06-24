@@ -1,12 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import NavBar from "../components/Navbar";
-import { Card, CardHeader, CardBody, CardFooter, Center, Box, Image, Stack, Heading, Text, Divider, ButtonGroup, Button, Input } from '@chakra-ui/react'
+import { Card, CardBody, CardFooter, Center, Box, Stack, Divider, ButtonGroup, Button, Input } from '@chakra-ui/react'
 import {
   FormControl,
   FormLabel,
-  FormErrorMessage,
-  FormHelperText,
   Select,
 } from '@chakra-ui/react'
 import Footer from "../components/Footer";
@@ -100,7 +98,7 @@ const EditStudent = () => {
               <Center>
                 <img
                 src={student.profilePicture} 
-                alt="Profile Picture" 
+                alt="Profile" 
                 data-testid="profilePicture"
                 borderRadius='lg'
                 />

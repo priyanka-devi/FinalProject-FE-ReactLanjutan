@@ -1,6 +1,6 @@
 // TODO: answer here
 
-import { Box, Container, Stack, IconButton, ButtonGroup, Text, Heading, GridItem } from "@chakra-ui/react";
+import { Box, Stack, ButtonGroup, Text, Heading} from "@chakra-ui/react";
 // import {FaLinkedin, FaGithub, FaTwitter} from 'react-icons/fa'
 import "../Styles/main.css"
 

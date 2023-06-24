@@ -1,5 +1,5 @@
 // TODO: answer here
-import { Routes, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { Heading, Button } from "@chakra-ui/react";
 // import {FaBars, FaTimes} from 'react-icons/fa'
 import { useRef } from "react";
