@@ -373,6 +373,17 @@
       "faculty": "Fakultas Ilmu Sosial dan Politik",
       "programStudy": "Administrasi Publik",
       "id": 34
+    },
+    {
+      "fullname": "suhal 2",
+      "profilePicture": "suhal",
+      "birthDate": "2023-06-24",
+      "gender": "Male",
+      "phoneNumber": "098765432",
+      "address": "suhal",
+      "faculty": "Fakultas Teknologi Informasi dan Sains",
+      "programStudy": "Matematika",
+      "id": 35
     }
   ]
 }
